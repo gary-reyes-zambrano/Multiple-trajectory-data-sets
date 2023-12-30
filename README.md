@@ -1,24 +1,42 @@
-# Multiple trajectory data sets
- Multi-city datasets for ML techniques analysis
+# Multiples conjuntos de datos de trayectorias vehiculares
+Conjuntos de datos de varias ciudades para el análisis de técnicas de aprendizaje automático.
 
-# Datasets description
+# Descripción de los conjuntos de datos
 
-## SanFrancisco_dataset.csv
+## San Francisco, Estados Unidos
 
-The data set for the city of San Francisco was collected on June 02, 2008; it contains 290 trajectories recorded by cabs using GPS devices.
-Each record contains the following data: trajectory id, latitude, longitude, time, speed and direction. 
-For this set of trajectories, the analysis included all trajectories recorded between 12:30 hrs and 13:30 hrs. As a result of this filtering process, 2382 records were obtained, representing 290 trajectories from the entire dataset.
-
-
-## Roma_dataset.csv
-
-The dataset for the city of Rome was collected on February 12, 2014 and contains 137 trajectories performed by cabs collected by GPS devices with an average time interval between two consecutive locations of 10 seconds. Each record contains trajectory id, latitude, longitude, time, speed, direction. 
-
-For this second set of trajectories, the analysis was performed between 18:00 and 19:00 hrs. As a result of this filtering process, 6938 records were obtained, representing 137 trajectories of the entire data set.
+Fecha de Recolección: 02 de junio de 2008.
+Ciudad: San Francisco.
+Fuente de Datos: Registros de trayectorias de taxis recopilados mediante dispositivos GPS.
+Número de Trayectorias: 290.
+Intervalo de Tiempo Analizado: Entre las 12:30 hrs y las 13:30 hrs.
+Registros Obtenidos después del Proceso de Filtrado: 2382.
+Contenido de Cada Registro: Trajectory id, latitud, longitud, tiempo, velocidad y dirección.
+Datos Específicos Registrados por Trayectoria: 290 registros.
 
 
-## Guayaquil_dataset.csv
+## Roma, Italia
 
-This dataset was collected on October 28, 2017 and corresponds to 218 trajectories made by university students traveling by some means of transportation such as cab, motorcycle, metro-via. The locations in this dataset were collected by smartphones with an average time interval between two consecutive locations of 5 seconds. Each record contains path id, latitude, longitude, time, user name, email and transport type. 
+Fecha de Recolección: 12 de febrero de 2014.
+Ciudad: Roma.
+Fuente de Datos: Registros de trayectorias de taxis recopilados mediante dispositivos GPS.
+Número de Trayectorias: 137.
+Intervalo de Tiempo entre Registros: 10 segundos en promedio.
+Intervalo de Tiempo Analizado: Entre las 18:00 y las 19:00 hrs.
+Registros Obtenidos después del Proceso de Filtrado: 6938.
+Contenido de Cada Registro: Trajectory id, latitud, longitud, tiempo, velocidad y dirección.
+Datos Específicos Registrados por Trayectoria: 137 registros.
 
-Given that this is a small set of trajectories, the analysis was carried out between 16:30 and 17:30 hrs, as this is considered the time period with the highest concentration of records. As a result of this filtering process, 4738 records were obtained, representing 206 trajectories of the entire data set.
+
+## Guayaquil, Ecuador
+
+Fecha de Recolección: 28 de octubre de 2017.
+Grupo Demográfico: Estudiantes universitarios.
+Número de Trayectorias: 218.
+Medios de Transporte Utilizados: Cab, motocicleta, metro-vía.
+Fuente de Datos: Localizaciones recopiladas por smartphones.
+Intervalo de Tiempo entre Registros: 5 segundos en promedio.
+Intervalo de Tiempo Analizado: Entre las 16:30 y las 17:30 hrs.
+Registros Obtenidos después del Proceso de Filtrado: 4738.
+Contenido de Cada Registro: Path id, latitud, longitud, tiempo, nombre de usuario, correo electrónico y tipo de transporte.
+Datos Específicos Registrados por Trayectoria: 206 registros.
